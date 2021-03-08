@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.score-board {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+.choices {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 22rem;
+    margin: 1rem auto;
+}
+.rock,
+.paper,
+.scissors {
+    cursor: pointer;
+    border: 1px solid yellow;
+    padding: 1.5rem;
+    border-radius: 50%;
+}
+button {
+    font-size: 3rem;
+}
+.description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.game-over {
+    display: none !important;
+}

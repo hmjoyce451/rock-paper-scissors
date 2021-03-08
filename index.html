@@ -4,9 +4,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/412ded2fce.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
     <title>Rock, Paper, Scissors</title>
 </head>
 <body>
+    <main>
+        <div class="header">
+            <h1>Rock, Paper, Scissors</h1>
+            <p>Do you you have what it takes?</p>
+        </div>
+        <div class="score-board">
+            <p class="user-score">0</p>
+            <span>:</span>
+            <p class="computer-score">0</p>
+        </div>
+        <div class="choices">
+            <button class="rock" id="rock">
+                <i class="fas fa-hand-rock" ></i>
+            </button>
+            <button class="paper" id="paper">
+                <i class="fas fa-hand-paper" ></i>
+            </button>
+            <button class="scissors" id="scissors">
+                <i class="fas fa-hand-scissors" ></i>
+            </button>
+        </div>
+        <div class="description">
+            <p class="description-text">Make a move!  First to 5 is the winner!</p>
+        </div>
+    </main>
     <script src="./script.js"></script>
 </body>
 </html>
