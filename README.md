@@ -1,2 +1,2 @@
-Rock paper scissors game, all within the console.
+Rock paper scissors game, previously within the console, now in the DOM itself!
 
